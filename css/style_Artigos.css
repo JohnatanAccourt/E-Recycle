@@ -9,13 +9,6 @@
 body {
 	background: linear-gradient(to right,rgba(0,159,53,0.8),rgba(0,96,115,0.8)) no-repeat;
 }
-.button {     
-	background-color: Transparent;
-	background-repeat:no-repeat;
-	border: none;
-	cursor:pointer;
-	overflow: hidden;        
-}
 .float{
 	position:fixed;
 	width:80px;

@@ -11,6 +11,58 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style_sobre.css">
 	<script src="js/script.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+				
+				//sobre nós===================================================
+  				$("#border").animate({
+    				opacity: '1',
+    				fontSize: '1.5em'
+  				},2000);
+
+  				
+
+  				$("#border").animate({
+    				opacity: '1',
+    				fontSize: '1.9em'
+  				},2000);
+
+  				//============================================================	
+				
+
+				//video sobre o projeto ======================================
+  				$("#border2").animate({
+    				opacity: '1',
+    				fontSize: '1.5em'
+  				},2000);
+
+  				
+
+  				$("#border2").animate({
+    				opacity: '1',
+    				fontSize: '1.9em'
+  				},2000);
+
+  				//============================================================
+
+
+
+
+
+
+  				$("#fadeTitulo").animate({
+    				opacity: '1',
+    				size: '30px'
+  				},2000);
+
+  				$("#fadeTitulo").animate({
+    				opacity: '1',
+    				size: '30px'
+  				},2000);
+
+		});
+	
+	</script>
 </head>
 <body>
 	<div class="barFixed">

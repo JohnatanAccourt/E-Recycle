@@ -12,6 +12,23 @@
 	<link rel="stylesheet" type="text/css" href="css/style_coletores.css">
 	<script src="js/script.js"></script>
 </head>
+<script type="text/javascript">
+		$(document).ready(function(){
+
+  				$("#fadeTitulo").animate({
+    				opacity: '1',
+    				size: '30px'
+  				},2000);
+
+  				$("#fadeTitulo").animate({
+    				opacity: '1',
+    				size: '30px'
+  				},2000);
+
+
+		});
+	
+	</script>
 <body>
 	<div class="barFixed">
 	<?php 

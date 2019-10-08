@@ -1,5 +1,4 @@
 <?php 
-//Changing name of servernome
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
