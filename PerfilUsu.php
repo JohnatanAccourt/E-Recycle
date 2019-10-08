@@ -11,38 +11,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style_PerfilUsu.css">
 	<script src="js/script.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			
-				$("#border").animate({
-    				opacity: '1',
-    				fontSize: '3em'
-  				},2000);
-
-  				$("#border").animate({
-    				opacity: '0.1',
-    				fontSize: '3em'
-  				},3000);
-
-  				$("#border").animate({
-    				opacity: '1',
-    				fontSize: '1.5em'
-  				},2000);
-
-
-  				$("#fadeTitulo").animate({
-    				opacity: '1',
-    				size: '30px'
-  				},2000);
-
-  				$("#fadeTitulo").animate({
-    				opacity: '1',
-    				size: '30px'
-  				},2000);
-
-		});
-	
-	</script>
 </head>
 <body>
 	<div class="barFixed">

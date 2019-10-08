@@ -52,6 +52,188 @@
 			$("#desc7").hide(1000);
 			$("#desc7").stop();
 		});
+			
+		
+				
+
+		//video sobre o projeto ======================================
+
+  		$("#border2").animate({
+    		opacity: '1',
+    		fontSize: '1.5em'
+  		},2000);
+
+  		$("#border2").animate({
+    		opacity: '1',
+    		fontSize: '1.9em'
+  		},2000);
+
+  		//============================================================
+
+  		$("#fadeTitulo").animate({
+    		opacity: '1',
+    		size: '30px'
+  		},2000);
+
+  		$("#fadeTitulo").animate({
+    		opacity: '1',
+    		size: '30px'
+  		},2000);
+			
+		$("#show").mouseenter(function(){
+			$("#show").hide(2000);
+		});
+		$("#show2").mouseleave(function(){
+			$("#show").show(1000);
+		});
+
+		//sobre nós===================================================
+
+  		$("#border").animate({
+    		opacity: '1',
+    		fontSize: '1.5em'
+  		},2000);
+
+  		$("#border").animate({
+    		opacity: '1',
+    		fontSize: '1.9em'
+  		},2000);
+
+  		//============================================================	
+				
+
+		//video sobre o projeto ======================================
+
+  		$("#border2").animate({
+    		opacity: '1',
+    		fontSize: '1.5em'
+  		},2000);
+
+  		$("#border2").animate({
+    		opacity: '1',
+    		fontSize: '1.9em'
+  		},2000);
+
+  		//============================================================
+
+  		$("#fadeTitulo").animate({
+    		opacity: '1',
+    		size: '30px'
+  		},2000);
+
+  		$("#fadeTitulo").animate({
+    		opacity: '1',
+    		size: '30px'
+  		},2000);
+
+  		$("#fadeTitulo").animate({
+    		opacity: '1',
+    		size: '30px'
+  		},2000);
+
+  		$("#fadeTitulo").animate({
+    		opacity: '1',
+    		size: '30px'
+  		},2000);
+
+  			
+				
+
+		//video sobre o projeto ======================================
+
+  		$("#border2").animate({
+    		opacity: '1',
+    		fontSize: '1.5em'
+  		},2000);
+
+  				
+
+  		$("#border2").animate({
+    		opacity: '1',
+    		fontSize: '1.9em'
+  		},2000);
+
+  		//============================================================
+
+
+  		//video sobre o projeto ======================================
+
+  		$("#border3").animate({
+    		opacity: '1',
+    		fontSize: '1.5em'
+  		},2000);
+
+  				
+
+  		$("#border3").animate({
+    		opacity: '1',
+    		fontSize: '1.9em'
+  		},2000);
+  		$("#border4").animate({
+    		opacity: '1',
+    		fontSize: '1.9em'
+  		},2000);
+
+  		//============================================================
+			
+
+  		$("#fadeTitulo").animate({
+    		opacity: '1',
+    		size: '30px'
+  		},2000);
+
+  		$("#fadeTitulo").animate({
+    		opacity: '1',
+    		size: '30px'
+  		},2000);
+
+  		//PerfilUsu====================================================
+
+
+  				$("#fadeTitulo").animate({
+    				opacity: '1',
+    				size: '30px'
+  				},2000);
+
+  				$("#fadeTitulo").animate({
+    				opacity: '1',
+    				size: '30px'
+  				},2000);
+	
+				
+
+		//video sobre o projeto ======================================
+
+  				$("#border2").animate({
+    				opacity: '1',
+    				fontSize: '1.5em'
+  				},2000);
+
+  				
+
+  				$("#border2").animate({
+    				opacity: '1',
+    				fontSize: '1.9em'
+  				},2000);
+
+  		//============================================================
+
+
+  				$("#fadeTitulo").animate({
+    				opacity: '1',
+    				size: '30px'
+  				},2000);
+
+  				$("#fadeTitulo").animate({
+    				opacity: '1',
+    				size: '30px'
+  				},2000);
+
+
+
+
+
+		});
+
 
 		
-});
