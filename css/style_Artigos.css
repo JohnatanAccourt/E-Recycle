@@ -1,0 +1,452 @@
+ @font-face {
+    font-family: 'Just Another Hand', cursive, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	background: linear-gradient(to right,rgba(0,159,53,0.8),rgba(0,96,115,0.8)) no-repeat;
+}
+.float{
+	position:fixed;
+	width:80px;
+	height:80px;
+	bottom:40px;
+	right:40px;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	background-color:#97ae53;
+	box-shadow: 2px 2px 3px #000;
+
+	animation-name: destaque;
+  	animation-duration: 10s;
+  	z-index: 3;
+}
+
+.my-float{
+	margin-top:22px;
+}
+@-webkit-keyframes destaque {
+	0% {background-color:#97ae53;}
+	50% {background-color:#006073;}
+	60% {background-color:#0b7018;}
+	100% {background-color:#97ae53;}
+	
+}
+.barFixed{
+	position: sticky;
+	z-index: 1;
+	top: 0;
+}
+.backgd {
+	background: #fff;
+}
+.navbar {
+	font-weight: bold;
+	padding: 15px 0 15px 0;
+	margin-bottom: 0;
+}
+.navbar li a {
+	color: #000;
+	z-index: 1;
+}
+.navbar li a:hover {
+	background-color: rgba(2,107,55,0.5);
+	text-shadow: 1px 1px 2px #fff;
+	border-radius: 2px;
+	color: #026b37;
+}
+.navbar-toggle {
+	background-color: #026b37;
+}
+.icon-bar {
+	background: #fff;
+}
+.codrops-top {
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 1.7;
+}
+.codrops-top a {
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	padding-right: 20px;
+}
+.codrops-top a:hover {
+	color: #009f30;
+	text-shadow: 1px 1px 2px #000;
+}
+
+.codrops-top span.right {
+	float: right;
+	font-weight: bold;
+}
+.navbar-nav {
+	float: right;
+}
+.row {
+	width: 980px;
+	/*min-width: 768px; 
+	max-width: 100%;*/ 
+	margin: auto;
+}
+.border {
+	height: 20px;
+	background: linear-gradient(to right,#009f35,#006073) no-repeat;
+}
+.rows {
+	margin-right: 10%;
+	margin-left: 10%;
+}
+.about {
+	width: 50%;
+	background: #fff; 
+	padding: 8px; 
+	margin: 4px; 
+	border-radius: 5px;
+}
+.about p {
+	width: 100%;
+	text-indent: 50px;
+	text-align: justify;
+}
+.about_img {
+	width: 44%;
+	float: right; 
+	margin: 5px; 
+}
+.border_tittle {
+	border-top: 2px solid #fff; 
+	border-bottom: 2px solid #fff;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	text-shadow: 1px 1px 2px #000;
+	-webkit-animation-name: mudacor;
+	-webkit-animation-duration: 5s;
+	text-align: center;
+
+
+}
+
+@-webkit-keyframes mudacor {
+	0% {color: white; opacity: 0.8;}
+	20% {color: #f3f3f3;}
+	25% {color: #d3d3d3;}
+	30% {color: #cdcdcd;}
+	100% {color: white; opacity: 1;}
+}
+.title {
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  position: absolute;
+  font-size: 250px;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 5px #000;
+  font-family: 'Just Another Hand', cursive, sans-serif;
+  opacity: 0.0;
+}
+.title2 {
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  position: absolute;
+  font-size: 250px;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 5px #000;
+  font-family: 'Just Another Hand', cursive, sans-serif;
+  opacity: 0.0;
+}
+.video {
+	text-align: center; 
+	padding-top: 10px
+}
+.video p {
+	width: 60%; 
+	text-align: justify; 
+	margin-right: auto; 
+	margin-left: auto; 
+	background: #fff; 
+	padding: 10px 20px 10px 20px; 
+	border-radius: 5px; 
+	margin-top: 5px;
+}
+/*cards*/
+.artigo {
+	position: relative;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	z-index: 1;
+	height: 440px;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+	float: right;
+}
+.artigo-lg {
+	position: relative;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	z-index: 1;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+	float: right;
+	transform: none;
+	opacity: none;
+	width: 540px;
+}
+.artigo-lg img {
+	width: 50%;
+}
+.artigo:hover, .artigo-lg:hover {
+	box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+}
+.artigo:hover .art_img img {  
+	transform: scale(1.1);
+	opacity: 0.6;
+}
+.artigo {
+	background: #009f35;
+	height: 330px;
+	overflow: hidden;
+}
+.artigo-lg {
+	background: #009f35;
+	height: 670px;
+ 	overflow: hidden;
+}
+.art_img img {
+  display: block;
+  width: 100%;
+  transition: all 0.3s linear 0s;
+}
+.info {
+  position: absolute;
+  bottom: 0;
+  background: #FFFFFF;
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;  
+}
+.tittle a {
+	text-decoration: none;
+	margin: 0;
+	padding: 0 0 5px;
+	color: #333333;
+	font-size: 20px;
+	font-weight: 700;
+}
+.desc {
+  display: none;
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.8em;
+}
+/*     */
+#rodape {
+	background: linear-gradient(to right,#009f35,#006073) no-repeat;
+	border-top: 2px solid #fff;
+	text-align: center;
+	padding: 10px 10px;
+	font-weight: bold;
+	color: #fff;
+	width: 100%;
+	bottom: 0;
+}
+
+.thumb{
+	display: inline-block;
+}
+.thumb2{
+	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #000;
+	
+}
+.animaOutrosArtigos img{
+	-webkit-animation-name: HeightAnima;
+	-webkit-animation-duration: 5s;
+}
+
+@-webkit-keyframes HeightAnima {
+	from { opacity: 0.5}
+	to { opacity: 1 }
+	
+}
+/*Artigos de destaque*/
+.Artg_Princ{
+	width: 70%; 
+	margin: auto;
+	text-align: center;
+}
+.Artg_Princ img {
+
+}
+.Titulo_Artg_Princ {
+	margin-bottom: 5px;
+}
+.cont_Artg_Princ {
+	text-align: justify;
+	color: #fff;
+}
+.date_Artg_Princ {
+	text-align: right;
+	background-color: #fff;
+	border-radius: 2px;
+	float: left;
+	padding: 5px;
+	margin-top: 0;
+	height: 19px;
+}
+#txtINimg {
+  display: inline-block;
+  position: relative;
+  box-shadow: inset 30px 40px 50px #000;
+}
+
+.um {
+  position: absolute;
+  bottom: 100px;
+  left: 15px;
+  font-size: 50px;
+  -webkit-animation-name: moveum;
+  -webkit-animation-duration: 4s;
+  color: white;
+}
+.dois {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  font-size: 20px;
+  color: white;
+  width: 500px;
+}
+
+@-webkit-keyframes moveum {
+	0% {color: white; left: 300px;}
+	30% {color: grey;}
+	90% {color: darkgrey;}
+	100% {color: white; left: 15px;}
+}
+
+.aparecer{
+	-webkit-animation-name: aparecerimg;
+  -webkit-animation-duration: 3s;
+}
+
+@-webkit-keyframes aparecerimg {
+	0% {opacity: 0.5}
+	100% {opacity: 1}
+}
+
+
+
+/*responsive*/
+@media (min-width: 320px) { 
+	.row {
+		width: 100%;
+	}
+	.title {
+	  top: 47%;
+	  left: 50%;
+	  font-size: 20px;
+	  font-family: 'Just Another Hand', cursive, sans-serif;
+	  transform: translate(-50%, -50%);
+	}
+	.title {
+	  bottom: 27%;
+	  left: 50%;
+	  font-size: 100px;
+	  font-family: 'Just Another Hand', cursive, sans-serif;
+	  transform: translate(-50%, -100%);
+	}
+	.float{
+		position:fixed;
+		width:60px;
+		height:60px;
+		bottom:40px;
+		right:10px;
+		color:#FFF;
+		border-radius:50px;
+		text-align:center;
+		background-color:#97ae53;
+		box-shadow: 2px 2px 3px #000;
+
+		animation-name: destaque;
+	  	animation-duration: 10s;
+	  	z-index: 3;
+	}
+ }
+/*mobile*/
+
+@media (min-width: 768px) { 
+	.row {
+		width: 80%;
+	}
+	.navbar-right {
+		padding-right: 12%;
+	}
+	.title {
+	  top: 46%;
+	  left: 50%;
+	  font-size: 120px;
+	  transform: translate(-50%, -50%);
+	}
+	.title {
+	  top: 46%;
+	  left: 60%;
+	  font-size: 200px;
+	  transform: translate(-50%, -50%);
+	}
+	.title {
+	  bottom: 0%;
+	  left: 50%;
+	  color: #fff;
+	  position: absolute;
+	  font-size: 180px;
+	  font-family: 'Just Another Hand', cursive, sans-serif;
+	  transform: translate(-50%, -50%);
+	}
+ }
+
+@media (min-width: 992px) { 
+	.row {
+		width: 90%;
+	}
+	.navbar li a:hover {
+		background: transparent;
+	}
+	.title {
+	  bottom: 27%;
+	  left: 50%;
+	  color: #fff;
+	  position: absolute;
+	  font-size: 240px;
+	  font-family: 'Just Another Hand', cursive, sans-serif;
+	  transform: translate(-50%, -50%);
+	}
+ }
+
+@media (min-width: 1200px) { 
+	.row {
+		width: 75%;
+	}
+	.navbar li a:hover {
+		background: transparent;
+	}
+	.title {
+	  top: 38%;
+	  left: 50%;
+	  color: #fff;
+	  position: absolute;
+	  font-size: 250px;
+	  font-family: 'Just Another Hand', cursive, sans-serif;
+	  transform: translate(-50%, -50%);
+	}
+	
+ }
