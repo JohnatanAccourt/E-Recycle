@@ -1,5 +1,5 @@
 <?php 
-	$servername = "192.168.1.103";
+	$servername = "localhost";
 	$username = "root";
 	$password = "";
 	$dbname = "ERECYCLE";
