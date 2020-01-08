@@ -1,7 +1,6 @@
 # **_E-RECYCLE_**
 
 A E-Recycle é um projeto que nasceu no curso de técnico em informatica na instituição **_Senac Largo Treze_**, esse projeto é inicialmente uma aplicação WEB que tem como foco estender esse site em uma plataforma de desenvolvimento pessoal e de conscientização acerca do meio-ambiente.
-erecycle.ga
 
 ## **INSTALAÇÃO**
 
